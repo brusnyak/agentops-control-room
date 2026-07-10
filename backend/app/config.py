@@ -14,7 +14,7 @@ class Settings(BaseSettings):
     resend_api_key: str = ""
     resend_from_email: str = "onboarding@resend.dev"
 
-    cors_origins: str = "http://localhost:3000"
+    cors_origins: str = "http://localhost:3001"
 
     @property
     def cors_origin_list(self) -> list[str]:
